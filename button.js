@@ -7,9 +7,10 @@ function myFunction() {
         greeting = "Good day";
     } else {
         greeting = "Good evening";
-        document.getElementById("demo").innerHTML = greeting;
 
     }
+    document.getElementById("demo").innerHTML = greeting;
+
 
 }
     myButton.onclick=function(){
