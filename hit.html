@@ -5,23 +5,23 @@
 </head>
 <body>
     <form action=""  method="GET">
-            <div>Username:<input type="name"  id ="l1"  name="Username"><div></br>
+            <div>Username:<input type="text"  id ="username"  name="username"><div></br>
             <div>Password:<input type="password" name="password"></div></br>
-            <input type="Submit" value="Submit">
+            <input id="btn" type="Submit" value="Submit">
     </form>
     <p></p>
     <script>
     var paragraph = document.querySelector('p');
-    var myButton = document.querySelector('Submit');
-    var username =document.querySelector('Username');
+    var myButton = document.getElementById('btn');
+    
     
     
     myButton.onclick=function()
+    
     {
-        defination()
-     {
-       console.log('p:'+'Hii user:'+ 'username');
-     }
+        var username =document.getElementById('username').value;
+       alert('hi '+username);
+     
     }
     </script>
 </body>
