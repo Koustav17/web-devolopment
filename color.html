@@ -1,0 +1,12 @@
+<html lang="eng">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<body>
+<p>insert any color you want to write</p>
+<div ng-app="" ng-init="myCol='lightblue'">
+<input style="background-color:{{myCol}}" ng-model="myCol" value="{{myCol}}">
+
+<p>After choose the color text will highlight according to that color</p>
+</div>
+</body>
+</html>
